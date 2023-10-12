@@ -4,66 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechZone</title>
+    <title>TechZone | Productos tecnológicos</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./estilos/hoja-de-estilos.css">
+
+    <!-- SEO -->
+    <meta name="description"
+        content="Venta de computadoras de escritorio, computadoras notebooks, computadoras todo en uno, componentes de computadora y accesorios de computadora al mejor precio del mercado, somos la tienda número 1 en toda Argentina, únete y experimenta la mejor experiencia de compra con nosotros.">
+    <meta name="robots" content="index, follow">
 </head>
 
 <body>
     <header>
-        <h2>TechZone</h2>
+        <h2 class="title">TechZone</h2>
         <nav>
-            <ul>
-                <li><a href="./pages/computadoras.html">Computadoras</a></li>
-                <li><a href="./pages/componentes.html">Componentes</a></li>
-                <li><a href="./pages/accesorios.html">Accesorios</a></li>
-                <li><a href="./pages/muebles.html">Muebles Gamers</a></li>
-                <li><a href="./pages/contacto.html">Contáctanos</a></li>
+            <ul class="nav-list">
+                <li><a href="./paginas/quienes-somos.html" class="nav-btn">Quienes somos?</a></li>
+                <li><a href="./paginas/computadoras.html" class="nav-btn">Computadoras</a></li>
+                <li><a href="./paginas/componentes.html" class="nav-btn">Componentes</a></li>
+                <li><a href="./paginas/accesorios.html" class="nav-btn">Accesorios</a></li>
+                <li><a href="./paginas/sucursales.html" class="nav-btn">Sucursales</a></li>
+                <li><a href="./paginas/contacto.html" class="nav-btn">Contáctanos</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <section class="promociones">
             <h1>Promociones</h1>
-            <div>
+            <div class="contenedor-promociones-img">
                 <img src="./imagenes/index/promocion-1.jpg" alt="Promoción especial de la página compra gamer"
-                    title="Promoción especial de la página compra gamer">
+                    title="Promoción especial de la página compra gamer" class="promociones-img">
                 <img src="./imagenes/index/promocion-2.jpg" alt="Promoción especial de la página compra gamer"
-                    title="Promoción especial de la página compra gamer">
+                    title="Promoción especial de la página compra gamer" class="promociones-img">
                 <img src="./imagenes/index/promocion-3.jpg" alt="Promoción especial de la página compra gamer"
-                    title="Promoción especial de la página compra gamer">
+                    title="Promoción especial de la página compra gamer" class="promociones-img">
                 <img src="./imagenes/index/promocion-4.jpg" alt="Promoción especial de la página compra gamer"
-                    title="Promoción especial de la página compra gamer">
+                    title="Promoción especial de la página compra gamer" class="promociones-img">
                 <img src="./imagenes/index/promocion-5.jpg" alt="Promoción especial de la página compra gamer"
-                    title="Promoción especial de la página compra gamer">
+                    title="Promoción especial de la página compra gamer" class="promociones-img">
                 <img src="./imagenes/index/promocion-6.jpg" alt="Promoción especial de la página compra gamer"
-                    title="Promoción especial de la página compra gamer">
+                    title="Promoción especial de la página compra gamer" class="promociones-img">
             </div>
         </section>
-        <section>
+        <section class="productContent">
             <div>
                 <h2>Computadoras:</h2>
                 <section>
                     <h3>De Escritorio</h3>
-                    <div>
-                        <article>
+                    <div class="contentCard">
+                        <article class="card">
                             <img src="/imagenes/computadoras/pc-escritorio/pc-escritorio-1.webp"
                                 alt="Computadora de escritorio">
-                            <div>
+                            <div class="card-info">
                                 <h4>Computadora intel</h4>
                                 <p>Computadora Gamer, intel i5, 16GB de ram, 1TB SSD, tarjeta gráfica RTX 2080</p>
                             </div>
                         </article>
-                        <article>
+                        <article class="card">
                             <img src="/imagenes/computadoras/pc-escritorio/pc-escritorio-2.webp"
                                 alt="Computadora de escritorio">
-                            <div>
+                            <div class="card-info">
                                 <h4>Computadora intel</h4>
                                 <p>Computadora Gamer, intel i7, 32GB de ram, 1TB SSD, tarjeta gráfica RTX 3060</p>
                             </div>
                         </article>
-                        <article>
+                        <article class="card">
                             <img src="/imagenes/computadoras/pc-escritorio/pc-escritorio-3.webp"
                                 alt="Computadora de escritorio">
-                            <div>
+                            <div class="card-info">
                                 <h4>Computadora intel</h4>
                                 <p>Computadora Gamer, intel i7, 32GB de ram, 1TB SSD, tarjeta gráfica RTX 3060</p>
                             </div>
@@ -72,24 +81,24 @@
                 </section>
                 <section>
                     <h3>Notebooks</h3>
-                    <div>
-                        <article>
+                    <div class="contentCard">
+                        <article class="card">
                             <img src="./imagenes/computadoras/notebooks/notebook-1.webp" alt="Notebook">
-                            <div>
+                            <div class="card-info">
                                 <h4>Notebook</h4>
                                 <p>Descripción</p>
                             </div>
                         </article>
-                        <article>
+                        <article class="card">
                             <img src="./imagenes/computadoras/notebooks/notebook-2.webp" alt="Notebook">
-                            <div>
+                            <div class="card-info">
                                 <h4>Notebook</h4>
                                 <p>Descripción</p>
                             </div>
                         </article>
-                        <article>
+                        <article class="card">
                             <img src="./imagenes/computadoras/notebooks/notebook-3.webp" alt="Notebook">
-                            <div>
+                            <div class="card-info">
                                 <h4>Notebook</h4>
                                 <p>Descripción</p>
                             </div>
@@ -98,24 +107,24 @@
                 </section>
                 <section>
                     <h3>Todo en uno</h3>
-                    <div>
-                        <article>
+                    <div class="contentCard">
+                        <article class="card">
                             <img src="./imagenes/computadoras/todo-en-uno/ten-1.webp" alt="Computadora todo en uno">
-                            <div>
+                            <div class="card-info">
                                 <h4>Computadora todo en uno - marca</h4>
                                 <p>Descripción</p>
                             </div>
                         </article>
-                        <article>
+                        <article class="card">
                             <img src="./imagenes/computadoras/todo-en-uno/ten-2.webp" alt="Computadora todo en uno">
-                            <div>
+                            <div class="card-info">
                                 <h4>Computadora todo en uno - marca</h4>
                                 <p>Descripción</p>
                             </div>
                         </article>
-                        <article>
+                        <article class="card">
                             <img src="./imagenes/computadoras/todo-en-uno/ten-3.webp" alt="Computadora todo en uno">
-                            <div>
+                            <div class="card-info">
                                 <h4>Computadora todo en uno - marca</h4>
                                 <p>Descripción</p>
                             </div>
@@ -127,24 +136,24 @@
                 <h2>Componentes</h2>
                 <section>
                     <h3>Procesadores</h3>
-                    <div>
-                        <article>
+                    <div class="contentCard">
+                        <article class="card">
                             <img src="./imagenes/componentes/procesadores/amd-5.webp" alt="Procesador AMD RYZEN 5">
-                            <div>
+                            <div class="card-info">
                                 <h4>Procesador AMD Ryzen 5</h4>
                                 <p>Descripción</p>
                             </div>
                         </article>
-                        <article>
+                        <article class="card">
                             <img src="./imagenes/componentes/procesadores/intel-i5.webp" alt="Procesador Intel Core i5">
-                            <div>
+                            <div class="card-info">
                                 <h4>Procesador AMD Ryzen 5</h4>
                                 <p>Descripción</p>
                             </div>
                         </article>
-                        <article>
+                        <article class="card">
                             <img src="./imagenes/componentes/procesadores/amd-9.webp" alt="Procesador AMD RYZEN 9">
-                            <div>
+                            <div class="card-info">
                                 <h4>Procesador AMD Ryzen 5</h4>
                                 <p>Descripción</p>
                             </div>
@@ -153,29 +162,193 @@
                 </section>
                 <section>
                     <h3>Placas madre</h3>
-                    <div>
-                        <article>
+                    <div class="contentCard">
+                        <article class="card">
                             <img src="./imagenes/componentes/placas-madre/placa-madre-intel-5.webp"
                                 alt="Placa madre para intel novena generación">
-                            <div>
+                            <div class="card-info">
                                 <h4>Placa madre para procesadores intel - 9na generación</h4>
                                 <p>Descripción</p>
                             </div>
                         </article>
-                        <article>
+                        <article class="card">
                             <img src="./imagenes/componentes/placas-madre/placa-madre-amd-3.webp"
                                 alt="Placa madre para amd tercera generación">
-                            <div>
+                            <div class="card-info">
                                 <h4>Placa madre para procesadores amd - 3ra generación</h4>
                                 <p>Descripción</p>
                             </div>
                         </article>
-                        <article>
+                        <article class="card">
                             <img src="./imagenes/componentes/placas-madre/placa-madre-intel-2.webp"
                                 alt="Placa madre para intel novena generación">
-                            <div>
+                            <div class="card-info">
                                 <h4>Placa madre para procesadores intel - 9na generación</h4>
                                 <p>Descripción</p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+                <section>
+                    <h3>Memorias ram</h3>
+                    <div class="contentCard">
+                        <article class="card">
+                            <img src="./imagenes/componentes/memorias-ram/memoria-ram-1.webp" alt="Memorias ram">
+                            <div class="card-info">
+                                <h4>Memoria ram 8Gb - 3200hz</h4>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <img src="./imagenes/componentes/memorias-ram/memoria-ram-2.webp" alt="Memorias ram">
+                            <div class="card-info">
+                                <h4>Memoria ram 16Gb - 5500hz</h4>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <img src="./imagenes/componentes/memorias-ram/memoria-ram-3.webp" alt="Memorias ram">
+                            <div class="card-info">
+                                <h4>Memoria ram 32Gb - 6600hz</h4>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+                <section>
+                    <h3>Almacenamiento</h3>
+                    <div class="contentCard">
+                        <article class="card">
+                            <img src="./imagenes/componentes/almacenamiento/hdd-1.webp" alt="Almacenamiento HDD">
+                            <div class="card-info">
+                                <h4>HDD 14Gb</h4>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <img src="./imagenes/componentes/almacenamiento/ssd-2.webp" alt="Almacenamiento SSD">
+                            <div class="card-info">
+                                <h4>SSD 960Gb</h4>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <img src="./imagenes/componentes/almacenamiento/m2-2.webp" alt="Almacenamiento M.2 - NVMe">
+                            <div class="card-info">
+                                <h4>M.2 250Gb</h4>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+                <section>
+                    <h3>Gabinetes</h3>
+                    <div class="contentCard">
+                        <article class="card">
+                            <img src="./imagenes/componentes/gabinetes/gabinete-2.webp" alt="Gabinete gamer">
+                            <div class="card-info">
+                                <h4>Gabinete gamer</h4>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <img src="./imagenes/componentes/gabinetes/gabinete-5.webp" alt="Gabinete gamer">
+                            <div class="card-info">
+                                <h4>Gabinete gamer</h4>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <img src="./imagenes/componentes/gabinetes/gabinete-9.webp" alt="Gabinete gamer">
+                            <div class="card-info">
+                                <h4>Gabinete gamer</h4>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+            <div>
+                <h2>Accesorios</h2>
+                <section>
+                    <h3>Auriculares</h3>
+                    <div class="contentCard">
+                        <article class="card">
+                            <img src="./imagenes/accesorios/auriculares/auricular-9.webp" alt="AirPods Max Apple">
+                            <div class="card-info">
+                                <h4>Auriculares AirPods Max</h4>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <img src="./imagenes/accesorios/auriculares/auricular-2.webp" alt="Auriculares gamers">
+                            <div class="card-info">
+                                <h4>Auriculares gamers</h4>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <img src="./imagenes/accesorios/auriculares/auricular-3.webp" alt="Auriculares gamers">
+                            <div class="card-info">
+                                <h4>Auriculares gamers</h4>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+                <section>
+                    <h3>Mouse</h3>
+                    <div class="contentCard">
+                        <article class="card">
+                            <img src="./imagenes/accesorios/ratones/raton-3.webp" alt="Mouse gamer">
+                            <div class="card-info">
+                                <h4>Mouse gamer</h4>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <img src="./imagenes/accesorios/ratones/raton-9.webp" alt="Mouse gamer">
+                            <div class="card-info">
+                                <h4>Mouse gamer</h4>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <img src="./imagenes/accesorios/ratones/raton-4.webp" alt="Mouse gamer">
+                            <div class="card-info">
+                                <h4>Mouse gamer</h4>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+                <section>
+                    <h3>Monitores</h3>
+                    <div class="contentCard">
+                        <article class="card">
+                            <img src="./imagenes/accesorios/monitores/monitor-3.webp" alt="Monitor Gamer">
+                            <div class="card-info">
+                                <h4>Monitor gamer</h4>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <img src="./imagenes/accesorios/monitores/monitor-6.webp" alt="Monitor Gamer">
+                            <div class="card-info">
+                                <h4>Monitor gamer</h4>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <img src="./imagenes/accesorios/monitores/monitor-2.webp" alt="Monitor Gamer">
+                            <div class="card-info">
+                                <h4>Monitor gamer</h4>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+                <section>
+                    <h3>Teclados</h3>
+                    <div class="contentCard">
+                        <article class="card">
+                            <img src="./imagenes/accesorios/teclados/teclado-4.webp" alt="Teclados gamers mecánicos">
+                            <div class="card-info">
+                                <h4>Teclados mecánico gamer</h4>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <img src="./imagenes/accesorios/teclados/teclado-7.webp" alt="Teclados gamers mecánicos">
+                            <div class="card-info">
+                                <h4>Teclados mecánico gamer</h4>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <img src="./imagenes/accesorios/teclados/teclado-2.webp" alt="Teclados gamers mecánicos">
+                            <div class="card-info">
+                                <h4>Teclados mecánico gamer</h4>
                             </div>
                         </article>
                     </div>

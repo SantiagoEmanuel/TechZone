@@ -9,18 +9,45 @@
 
 <body>
     <header>
-        <h2>TechZone</h2>
+        <h2><a href="../index.html">TechZone</a></h2>
         <nav>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./quienes-somos.html">Quienes somos?</a></li>
                 <li><a href="./computadoras.html">Computadoras</a></li>
                 <li><a href="./componentes.html">Componentes</a></li>
                 <li><a href="./accesorios.html">Accesorios</a></li>
-                <li><a href="./muebles.html">Muebles Gamers</a></li>
+                <li><a href="./sucursales.html">Sucursales</a></li>
                 <li><a href="./contacto.html">Contáctanos</a></li>
             </ul>
         </nav>
     </header>
+    <main>
+        <h1>Página de contacto</h1>
+        <form class="contacto">
+            <fieldset class="contacto-content">
+                <legend>Formulario de contacto</legend>
+                <div class="nombre-apellido">
+                    <input type="text" name="nombre" placeholder="Nombre" class="nombre">
+                    <input type="text" name="apellido" placeholder="Apellido" class="apellido">
+                </div>
+                <input type="email" name="email" placeholder="TuCorreo@Electrónico.com" class="correo">
+                <div class="contenedor-duda">
+                    <select name="duda" class="duda">
+                        <option value="default">Sobre qué es tu duda?</option>
+                        <option value="escritorio">Computadoras de escritorio</option>
+                        <option value="notebooks">Computadoras notebooks</option>
+                        <option value="todo-en-uno">Computadoras todo en uno</option>
+                        <option value="componentes">Componentes de computadora</option>
+                        <option value="accesorios">Accesorios de computadora</option>
+                    </select>
+                </div>
+                <textarea name="mensaje" cols="30" rows="10" placeholder="Tu mensaje con la duda que tengas"
+                    class="mensaje"></textarea>
+                <button>Enviar</button>
+            </fieldset>
+        </form>
+    </main>
     <footer>
         <div>
             <p>Redes sociales</p>

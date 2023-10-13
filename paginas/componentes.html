@@ -6,149 +6,149 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechZone</title>
 
-    <!-- BoxIcons CSS -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../estilos/hoja-de-estilos.css">
 </head>
 
 <body>
-    <header>
-        <h2><a href="../index.html">TechZone</a></h2>
+    <header class="header">
+        <h2 class="title">TechZone</h2>
         <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./quienes-somos.html">Quienes somos?</a></li>
-                <li><a href="./computadoras.html">Computadoras</a></li>
-                <li><a href="./componentes.html">Componentes</a></li>
-                <li><a href="./accesorios.html">Accesorios</a></li>
-                <li><a href="./sucursales.html">Sucursales</a></li>
-                <li><a href="./contacto.html">Contáctanos</a></li>
+            <ul class="navList">
+                <li><a href="../index.html" class="navBtn">Inicio</a></li>
+                <li><a href="./computadoras.html" class="navBtn">Computadoras</a></li>
+                <li><a href="./componentes.html" class="navBtn">Componentes</a></li>
+                <li><a href="./accesorios.html" class="navBtn">Accesorios</a></li>
+                <li><a href="./sucursales.html" class="navBtn">Sucursales</a></li>
+                <li><a href="./contacto.html" class="navBtn">Contáctanos</a></li>
+                <li><a href="./quienes-somos.html" class="navBtn">Quienes somos?</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <header>
-            <h1>Componentes</h1>
+        <header class="mainHeader">
+            <h1 class="mainHeaderTitle">Componentes</h1>
             <search>
-                <form>
+                <form class="form">
                     <input type="text" name="query" id="search" placeholder="Algo específico? Búscalo!">
-                    <button type="submit">
-                        <i class='bx bx-search-alt-2'></i>
+                    <button>
+                        Buscar
                     </button>
                 </form>
             </search>
         </header>
-        <section>
+        <section class="productContent">
             <div>
-                <h2>Procesadores</h2>
-                <section>
-                    <article>
+                <h2 class="productContentTitle">Procesadores</h2>
+                <section class="contentCard">
+                    <article class="card">
                         <img src="../imagenes/componentes/procesadores/intel-celeron.webp" alt="Procesador intel">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Procesador intel celeron</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/procesadores/intel-i3.webp" alt="Procesador intel">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Procesador intel i3 - novena generación</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/procesadores/intel-i5.webp" alt="Procesador intel">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Procesador intel i5 - novena generación</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/procesadores/intel-i7.webp" alt="Procesador intel">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Procesador intel i7 - novena generación</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/procesadores/intel-i9.webp" alt="Procesador intel">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Procesador intel i9 - novena generación</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/procesadores/amd-3.jpg" alt="Procesador amd">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Procesador AMD Ryzen 3 - tercera generación</h3>
                         </div>
                     </article>
-                    <article>
-                        <img src="../imagenes/componentes/procesadores/amd-5.jpg" alt="Procesador amd">
-                        <div>
+                    <article class="card">
+                        <img src="../imagenes/componentes/procesadores/amd-5.webp" alt="Procesador amd">
+                        <div class="cardInfo">
                             <h3>Procesador AMD Ryzen 5 - tercera generación</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/procesadores/amd-7.jpg" alt="Procesador amd">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Procesador AMD Ryzen 7 - tercera generación</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/procesadores/amd-9.webp" alt="Procesador amd">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Procesador AMD Ryzen 9 - tercera generación</h3>
                         </div>
                     </article>
                 </section>
             </div>
             <div>
-                <h2>Placas madre</h2>
-                <section>
-                    <article>
+                <h2 class="productContentTitle">Placas madre</h2>
+                <section class="contentCard">
+                    <article class="card">
                         <img src="../imagenes/componentes/placas-madre/placa-madre-amd-1.webp" alt="Placa madre">
                         <div>
                             <h3>Placa madre para procesador AMD Ryzen</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/placas-madre/placa-madre-amd-2.webp" alt="Placa madre">
                         <div>
                             <h3>Placa madre para procesador AMD Ryzen</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/placas-madre/placa-madre-amd-3.webp" alt="Placa madre">
                         <div>
                             <h3>Placa madre para procesador AMD Ryzen</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/placas-madre/placa-madre-amd-4.webp" alt="Placa madre">
                         <div>
                             <h3>Placa madre para procesador AMD Ryzen</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/placas-madre/placa-madre-intel-1.webp" alt="Placa madre">
                         <div>
                             <h3>Placa madre para procesador intel</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/placas-madre/placa-madre-intel-2.webp" alt="Placa madre">
                         <div>
                             <h3>Placa madre para procesador intel</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/placas-madre/placa-madre-intel-3.webp" alt="Placa madre">
                         <div>
                             <h3>Placa madre para procesador intel</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/placas-madre/placa-madre-intel-4.webp" alt="Placa madre">
                         <div>
                             <h3>Placa madre para procesador intel</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/placas-madre/placa-madre-intel-5.webp" alt="Placa madre">
                         <div>
                             <h3>Placa madre para procesador intel</h3>
@@ -157,57 +157,57 @@
                 </section>
             </div>
             <div>
-                <h2>Memorias Ram</h2>
-                <section>
-                    <article>
+                <h2 class="productContentTitle">Memorias Ram</h2>
+                <section class="contentCard">
+                    <article class="card">
                         <img src="../imagenes/componentes/memorias-ram/memoria-ram-1.webp" alt="Memoria ram">
                         <div>
                             <h3>Memoria ram</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/memorias-ram/memoria-ram-2.webp" alt="Memoria ram">
                         <div>
                             <h3>Memoria ram</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/memorias-ram/memoria-ram-3.webp" alt="Memoria ram">
                         <div>
                             <h3>Memoria ram</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/memorias-ram/memoria-ram-4.webp" alt="Memoria ram">
                         <div>
                             <h3>Memoria ram</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/memorias-ram/memoria-ram-5.webp" alt="Memoria ram">
                         <div>
                             <h3>Memoria ram</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/memorias-ram/memoria-ram-6.webp" alt="Memoria ram">
                         <div>
                             <h3>Memoria ram</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/memorias-ram/memoria-ram-8.webp" alt="Memoria ram">
                         <div>
                             <h3>Memoria ram</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/memorias-ram/memoria-ram-7.webp" alt="Memoria ram">
                         <div>
                             <h3>Memoria ram</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/memorias-ram/memoria-ram-9.webp" alt="Memoria ram">
                         <div>
                             <h3>Memoria ram</h3>
@@ -216,57 +216,57 @@
                 </section>
             </div>
             <div>
-                <h2>Almacenamiento</h2>
-                <section>
-                    <article>
+                <h2 class="productContentTitle">Almacenamiento</h2>
+                <section class="contentCard">
+                    <article class="card">
                         <img src="../imagenes/componentes/almacenamiento/hdd-1.webp" alt="Almacenamiento hdd">
                         <div>
                             <h3>Almacenamiento HDD</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/almacenamiento/hdd-2.webp" alt="Almacenamiento hdd">
                         <div>
                             <h3>Almacenamiento HDD</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/almacenamiento/hdd-3.webp" alt="Almacenamiento hdd">
                         <div>
                             <h3>Almacenamiento HDD</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/almacenamiento/hdd-4.webp" alt="Almacenamiento hdd">
                         <div>
                             <h3>Almacenamiento HDD</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/almacenamiento/ssd-1.webp" alt="Almacenamiento ssd">
                         <div>
                             <h3>Almacenamiento SSD</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/almacenamiento/ssd-2.webp" alt="Almacenamiento sdd">
                         <div>
                             <h3>Almacenamiento SSD</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/almacenamiento/ssd-3.webp" alt="Almacenamiento sdd">
                         <div>
                             <h3>Almacenamiento SSD</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/almacenamiento/m2-1.webp" alt="Almacenamiento m.2">
                         <div>
                             <h3>Almacenamiento M.2</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/almacenamiento/m2-2.webp" alt="Almacenamiento m.2">
                         <div>
                             <h3>Almacenamiento M.2</h3>
@@ -275,57 +275,57 @@
                 </section>
             </div>
             <div>
-                <h2>Gabinetes</h2>
-                <section>
-                    <article>
+                <h2 class="productContentTitle">Gabinetes</h2>
+                <section class="contentCard">
+                    <article class="card">
                         <img src="../imagenes/componentes/gabinetes/gabinete-1.webp" alt="Gabinete gamer">
                         <div>
                             <h3>Gabinete</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/gabinetes/gabinete-2.webp" alt="Gabinete gamer">
                         <div>
                             <h3>Gabinete</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/gabinetes/gabinete-3.webp" alt="Gabinete gamer">
                         <div>
                             <h3>Gabinete</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/gabinetes/gabinete-4.webp" alt="Gabinete gamer">
                         <div>
                             <h3>Gabinete</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/gabinetes/gabinete-5.webp" alt="Gabinete gamer">
                         <div>
                             <h3>Gabinete</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/gabinetes/gabinete-6.webp" alt="Gabinete gamer">
                         <div>
                             <h3>Gabinete</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/gabinetes/gabinete-7.webp" alt="Gabinete gamer">
                         <div>
                             <h3>Gabinete</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/gabinetes/gabinete-8.webp" alt="Gabinete gamer">
                         <div>
                             <h3>Gabinete</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/componentes/gabinetes/gabinete-9.webp" alt="Gabinete gamer">
                         <div>
                             <h3>Gabinete</h3>

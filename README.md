@@ -1,6 +1,6 @@
-# EN PROCESO.
+# EN PROCESO
 
-# TechZone - PROYECTO FINAL -> CoderHouse
+## TechZone - PROYECTO FINAL -> CoderHouse
 
 ## Sobre TechZone
 

@@ -5,47 +5,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechZone</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../estilos/hoja-de-estilos.css">
 </head>
 
 <body>
-    <header>
-        <h2><a href="../index.html">TechZone</a></h2>
+    <header class="header">
+        <h2 class="title">TechZone</h2>
         <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./quienes-somos.html">Quienes somos?</a></li>
-                <li><a href="./computadoras.html">Computadoras</a></li>
-                <li><a href="./componentes.html">Componentes</a></li>
-                <li><a href="./accesorios.html">Accesorios</a></li>
-                <li><a href="./sucursales.html">Sucursales</a></li>
-                <li><a href="./contacto.html">Contáctanos</a></li>
+            <ul class="navList">
+                <li><a class="navBtn" href="../index.html">Inicio</a></li>
+                <li><a class="navBtn" href="./computadoras.html">Computadoras</a></li>
+                <li><a class="navBtn" href="./componentes.html">Componentes</a></li>
+                <li><a class="navBtn" href="./accesorios.html">Accesorios</a></li>
+                <li><a class="navBtn" href="./sucursales.html">Sucursales</a></li>
+                <li><a class="navBtn" href="./contacto.html">Contáctanos</a></li>
+                <li><a class="navBtn" href="./quienes-somos.html">Quienes somos?</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <header>
-            <h1>Nuestras sucursales</h1>
+        <header class="mainHeader">
+            <h1 class="mainHeaderTitle">Nuestras sucursales</h1>
         </header>
-        <section>
-            <h2>Sucursal de Córdoba</h2>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108977.23899160055!2d-64.27661267514317!3d-31.399280322359722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432985f478f5b69%3A0xb0a24f9a5366b092!2zQ8OzcmRvYmE!5e0!3m2!1ses-419!2sar!4v1697138195483!5m2!1ses-419!2sar"
-                width="600" height="450" style="border:0;" allowfullscreen="off" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-        <section>
-            <h2>Sucursal de Buenos Aires</h2>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.45340211764!2d-58.51569865212594!3d-34.61565477020296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1697138272075!5m2!1ses-419!2sar"
-                width="600" height="450" style="border:0;" allowfullscreen="off" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-        <section>
-            <h2>Sucursal de Santiago del Estero</h2>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56468.2296310028!2d-64.3082477769138!3d-27.801632764292016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943b526adf33f96b%3A0x9a9d18ed7764c8d6!2sSantiago%20del%20Estero!5e0!3m2!1ses-419!2sar!4v1697138308681!5m2!1ses-419!2sar"
-                width="600" height="450" style="border:0;" allowfullscreen="off" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <section class="sucursalContainer">
+            <article class="sucursal">
+                <h2>Sucursal de Córdoba</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108977.23899160055!2d-64.27661267514317!3d-31.399280322359722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432985f478f5b69%3A0xb0a24f9a5366b092!2zQ8OzcmRvYmE!5e0!3m2!1ses-419!2sar!4v1697138195483!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="off" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+            <article class="sucursal">
+                <h2>Sucursal de Buenos Aires</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.45340211764!2d-58.51569865212594!3d-34.61565477020296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1697138272075!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="off" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+            <article class="sucursal">
+                <h2>Sucursal de Santiago del Estero</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56468.2296310028!2d-64.3082477769138!3d-27.801632764292016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943b526adf33f96b%3A0x9a9d18ed7764c8d6!2sSantiago%20del%20Estero!5e0!3m2!1ses-419!2sar!4v1697138308681!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="off" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
         </section>
     </main>
     <footer>

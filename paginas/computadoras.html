@@ -6,210 +6,216 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechZone</title>
 
-    <!-- BoxIcons CSS -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../estilos/hoja-de-estilos.css">
+
+    <!-- SEO -->
+    <meta name="description"
+        content="Página de TechZone de computadoras de escritorio, computadoras notebook y computadoras todo en uno.">
+    <meta name="robots" content="index, follow">
+    <!-- <link rel="canonical" href="https://santiagoemanuel.github.io/TechZone/" /> -->
 </head>
 
 <body>
-    <header>
-        <h2><a href="../index.html">TechZone</a></h2>
+    <header class="header">
+        <h2 class="title">TechZone</h2>
         <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./quienes-somos.html">Quienes somos?</a></li>
-                <li><a href="./computadoras.html">Computadoras</a></li>
-                <li><a href="./componentes.html">Componentes</a></li>
-                <li><a href="./accesorios.html">Accesorios</a></li>
-                <li><a href="./sucursales.html">Sucursales</a></li>
-                <li><a href="./contacto.html">Contáctanos</a></li>
+            <ul class="navList">
+                <li><a href="../index.html" class="navBtn">Inicio</a></li>
+                <li><a href="./computadoras.html" class="navBtn">Computadoras</a></li>
+                <li><a href="./componentes.html" class="navBtn">Componentes</a></li>
+                <li><a href="./accesorios.html" class="navBtn">Accesorios</a></li>
+                <li><a href="./sucursales.html" class="navBtn">Sucursales</a></li>
+                <li><a href="./contacto.html" class="navBtn">Contáctanos</a></li>
+                <li><a href="./quienes-somos.html" class="navBtn">Quienes somos?</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <header>
-            <h1>Computadoras</h1>
-            <search>
-                <form>
-                    <input type="text" name="query" id="search" placeholder="Algo específico? Búscalo!">
+        <header class="mainHeader">
+            <h1 class="mainHeaderTitle">Computadoras</h1>
+            <search role="search">
+                <form class="form">
+                    <input type="text" name="query" placeholder="Algo específico? Búscalo!">
                     <button type="submit">
-                        <i class='bx bx-search-alt-2'></i>
+                        Buscar
                     </button>
                 </form>
             </search>
         </header>
-        <section>
+        <section class="productContent">
             <div>
-                <h2>Computadoras de escritorio</h2>
-                <section>
-                    <article>
+                <h2 class="productContentTitle">Computadoras de escritorio</h2>
+                <section class="contentCard">
+                    <article class="card">
                         <img src="../imagenes/computadoras/pc-escritorio/pc-escritorio-1.webp" alt="Computadora gamer">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadora gamer</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/pc-escritorio/pc-escritorio-2.webp" alt="Computadora gamer">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadora gamer</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/pc-escritorio/pc-escritorio-3.webp" alt="Computadora gamer">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadora gamer</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/pc-escritorio/pc-escritorio-4.webp" alt="Computadora gamer">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadora gamer</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/pc-escritorio/pc-escritorio-5.jpg" alt="Computadora gamer">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadora gamer</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/pc-escritorio/pc-escritorio-6.webp" alt="Computadora gamer">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadora gamer</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/pc-escritorio/pc-escritorio-7.webp" alt="Computadora gamer">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadora gamer</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/pc-escritorio/pc-escritorio-8.webp" alt="Computadora gamer">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadora gamer</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/pc-escritorio/pc-escritorio-9.webp" alt="Computadora gamer">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadora gamer</h3>
                         </div>
                     </article>
                 </section>
             </div>
             <div>
-                <h2>Computadoras notebooks</h2>
-                <section>
-                    <article>
+                <h2 class="productContentTitle">Computadoras notebooks</h2>
+                <section class="contentCard">
+                    <article class="card">
                         <img src="../imagenes/computadoras/notebooks/notebook-1.webp" alt="Notebooks gamers">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadora notebook gamer</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/notebooks/notebook-2.webp" alt="Notebooks gamers">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadora notebook gamer</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/notebooks/notebook-3.webp" alt="Notebooks gamers">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadora notebook gamer</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/notebooks/notebook-4.webp" alt="Notebooks gamers">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadora notebook gamer</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/notebooks/notebook-5.webp" alt="Notebooks gamers">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadora notebook gamer</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/notebooks/notebook-6.webp" alt="Notebooks gamers">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadora notebook gamer</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/notebooks/notebook-7.webp" alt="Notebooks gamers">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadora notebook gamer</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/notebooks/notebook-8.webp" alt="Notebooks gamers">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadora notebook gamer</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/notebooks/notebook-9.webp" alt="Notebooks gamers">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadora notebook gamer</h3>
                         </div>
                     </article>
                 </section>
             </div>
             <div>
-                <h2>Computadoras todo en uno</h2>
-                <section>
-                    <article>
+                <h2 class="productContentTitle">Computadoras todo en uno</h2>
+                <section class="contentCard">
+                    <article class="card">
                         <img src="../imagenes/computadoras/todo-en-uno/ten-1.webp" alt="Computadoras todo en uno">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadoras todo en uno</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/todo-en-uno/ten-2.webp" alt="Computadoras todo en uno">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadoras todo en uno</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/todo-en-uno/ten-3.webp" alt="Computadoras todo en uno">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadoras todo en uno</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/todo-en-uno/ten-4.webp" alt="Computadoras todo en uno">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadoras todo en uno</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/todo-en-uno/ten-5.webp" alt="Computadoras todo en uno">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadoras todo en uno</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/todo-en-uno/ten-6.webp" alt="Computadoras todo en uno">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadoras todo en uno</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/todo-en-uno/ten-7.webp" alt="Computadoras todo en uno">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadoras todo en uno</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/todo-en-uno/ten-8.webp" alt="Computadoras todo en uno">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadoras todo en uno</h3>
                         </div>
                     </article>
-                    <article>
+                    <article class="card">
                         <img src="../imagenes/computadoras/todo-en-uno/ten-9.webp" alt="Computadoras todo en uno">
-                        <div>
+                        <div class="cardInfo">
                             <h3>Computadoras todo en uno</h3>
                         </div>
                     </article>

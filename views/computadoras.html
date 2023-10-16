@@ -7,7 +7,7 @@
     <title>TechZone</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="../estilos/hoja-de-estilos.css">
+    <link rel="stylesheet" href="../CSS/style.css">
 
     <!-- SEO -->
     <meta name="description"
@@ -17,13 +17,14 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <h2 class="title">TechZone</h2>
         <nav>
             <ul class="navList">
                 <li><a href="../index.html" class="navBtn">Inicio</a></li>
                 <li><a href="./computadoras.html" class="navBtn">Computadoras</a></li>
-                <li><a href="./componentes.html" class="navBtn">Componentes</a></li>
+                <li><a href="./compo
+                    nentes.html" class="navBtn">Componentes</a></li>
                 <li><a href="./accesorios.html" class="navBtn">Accesorios</a></li>
                 <li><a href="./sucursales.html" class="navBtn">Sucursales</a></li>
                 <li><a href="./contacto.html" class="navBtn">Contáctanos</a></li>
@@ -43,6 +44,7 @@
                 </form>
             </search>
         </header>
+        <!-- Los detalles de los productos van a ser como en la página de inicio, éstos serán puestos próximamente -->
         <section class="productContent">
             <div>
                 <h2 class="productContentTitle">Computadoras de escritorio</h2>
@@ -79,24 +81,6 @@
                     </article>
                     <article class="card">
                         <img src="../imagenes/computadoras/pc-escritorio/pc-escritorio-6.webp" alt="Computadora gamer">
-                        <div class="cardInfo">
-                            <h3>Computadora gamer</h3>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <img src="../imagenes/computadoras/pc-escritorio/pc-escritorio-7.webp" alt="Computadora gamer">
-                        <div class="cardInfo">
-                            <h3>Computadora gamer</h3>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <img src="../imagenes/computadoras/pc-escritorio/pc-escritorio-8.webp" alt="Computadora gamer">
-                        <div class="cardInfo">
-                            <h3>Computadora gamer</h3>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <img src="../imagenes/computadoras/pc-escritorio/pc-escritorio-9.webp" alt="Computadora gamer">
                         <div class="cardInfo">
                             <h3>Computadora gamer</h3>
                         </div>
@@ -142,24 +126,6 @@
                             <h3>Computadora notebook gamer</h3>
                         </div>
                     </article>
-                    <article class="card">
-                        <img src="../imagenes/computadoras/notebooks/notebook-7.webp" alt="Notebooks gamers">
-                        <div class="cardInfo">
-                            <h3>Computadora notebook gamer</h3>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <img src="../imagenes/computadoras/notebooks/notebook-8.webp" alt="Notebooks gamers">
-                        <div class="cardInfo">
-                            <h3>Computadora notebook gamer</h3>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <img src="../imagenes/computadoras/notebooks/notebook-9.webp" alt="Notebooks gamers">
-                        <div class="cardInfo">
-                            <h3>Computadora notebook gamer</h3>
-                        </div>
-                    </article>
                 </section>
             </div>
             <div>
@@ -201,38 +167,33 @@
                             <h3>Computadoras todo en uno</h3>
                         </div>
                     </article>
-                    <article class="card">
-                        <img src="../imagenes/computadoras/todo-en-uno/ten-7.webp" alt="Computadoras todo en uno">
-                        <div class="cardInfo">
-                            <h3>Computadoras todo en uno</h3>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <img src="../imagenes/computadoras/todo-en-uno/ten-8.webp" alt="Computadoras todo en uno">
-                        <div class="cardInfo">
-                            <h3>Computadoras todo en uno</h3>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <img src="../imagenes/computadoras/todo-en-uno/ten-9.webp" alt="Computadoras todo en uno">
-                        <div class="cardInfo">
-                            <h3>Computadoras todo en uno</h3>
-                        </div>
-                    </article>
                 </section>
             </div>
         </section>
+        <a href="#header" class="volver">Volver arriba</a>
     </main>
     <footer>
-        <div>
-            <p>Redes sociales</p>
-            <ul>
-                <li>Instagram</li>
-                <li>Twitter</li>
-                <li>Facebook</li>
+        <div class="redes">
+            <h2 class="redesTitle">Redes sociales</h2>
+            <ul class="redesList">
+                <li>
+                    <img src="../imagenes/iconos/instagram-icon.png" alt="Icono de instagram, obtenido de icons8.com"
+                        class="icono">
+                    Instagram
+                </li>
+                <li>
+                    <img src="../imagenes/iconos/twitter-icon.png" alt="Icono de twitter, obtenido de icons8.com"
+                        class="icono">
+                    Twitter
+                </li>
+                <li>
+                    <img src="../imagenes/iconos/facebook-icon.png" alt="Icono de facebook, obtenido de icons8.com"
+                        class="icono">
+                    Facebook
+                </li>
             </ul>
         </div>
-        <p>Todos los derechos reservados - CopyRight 2023</p>
+        <small>Página creada por <span class="creador">Santiago Mustafa Font</span> - CoderHouse desarrollo web</small>
     </footer>
 </body>
 

@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechZone</title>
+    <title>TechZone - Componentes de computadora</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="../estilos/hoja-de-estilos.css">
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <h2 class="title">TechZone</h2>
         <nav>
             <ul class="navList">
@@ -37,6 +37,7 @@
                 </form>
             </search>
         </header>
+        <!-- Los detalles de los productos van a ser como en la página de inicio, éstos serán puestos próximamente -->
         <section class="productContent">
             <div>
                 <h2 class="productContentTitle">Procesadores</h2>
@@ -77,24 +78,6 @@
                             <h3>Procesador AMD Ryzen 3 - tercera generación</h3>
                         </div>
                     </article>
-                    <article class="card">
-                        <img src="../imagenes/componentes/procesadores/amd-5.webp" alt="Procesador amd">
-                        <div class="cardInfo">
-                            <h3>Procesador AMD Ryzen 5 - tercera generación</h3>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <img src="../imagenes/componentes/procesadores/amd-7.jpg" alt="Procesador amd">
-                        <div class="cardInfo">
-                            <h3>Procesador AMD Ryzen 7 - tercera generación</h3>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <img src="../imagenes/componentes/procesadores/amd-9.webp" alt="Procesador amd">
-                        <div class="cardInfo">
-                            <h3>Procesador AMD Ryzen 9 - tercera generación</h3>
-                        </div>
-                    </article>
                 </section>
             </div>
             <div>
@@ -132,24 +115,6 @@
                     </article>
                     <article class="card">
                         <img src="../imagenes/componentes/placas-madre/placa-madre-intel-2.webp" alt="Placa madre">
-                        <div>
-                            <h3>Placa madre para procesador intel</h3>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <img src="../imagenes/componentes/placas-madre/placa-madre-intel-3.webp" alt="Placa madre">
-                        <div>
-                            <h3>Placa madre para procesador intel</h3>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <img src="../imagenes/componentes/placas-madre/placa-madre-intel-4.webp" alt="Placa madre">
-                        <div>
-                            <h3>Placa madre para procesador intel</h3>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <img src="../imagenes/componentes/placas-madre/placa-madre-intel-5.webp" alt="Placa madre">
                         <div>
                             <h3>Placa madre para procesador intel</h3>
                         </div>
@@ -195,24 +160,6 @@
                             <h3>Memoria ram</h3>
                         </div>
                     </article>
-                    <article class="card">
-                        <img src="../imagenes/componentes/memorias-ram/memoria-ram-8.webp" alt="Memoria ram">
-                        <div>
-                            <h3>Memoria ram</h3>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <img src="../imagenes/componentes/memorias-ram/memoria-ram-7.webp" alt="Memoria ram">
-                        <div>
-                            <h3>Memoria ram</h3>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <img src="../imagenes/componentes/memorias-ram/memoria-ram-9.webp" alt="Memoria ram">
-                        <div>
-                            <h3>Memoria ram</h3>
-                        </div>
-                    </article>
                 </section>
             </div>
             <div>
@@ -252,24 +199,6 @@
                         <img src="../imagenes/componentes/almacenamiento/ssd-2.webp" alt="Almacenamiento sdd">
                         <div>
                             <h3>Almacenamiento SSD</h3>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <img src="../imagenes/componentes/almacenamiento/ssd-3.webp" alt="Almacenamiento sdd">
-                        <div>
-                            <h3>Almacenamiento SSD</h3>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <img src="../imagenes/componentes/almacenamiento/m2-1.webp" alt="Almacenamiento m.2">
-                        <div>
-                            <h3>Almacenamiento M.2</h3>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <img src="../imagenes/componentes/almacenamiento/m2-2.webp" alt="Almacenamiento m.2">
-                        <div>
-                            <h3>Almacenamiento M.2</h3>
                         </div>
                     </article>
                 </section>
@@ -313,38 +242,33 @@
                             <h3>Gabinete</h3>
                         </div>
                     </article>
-                    <article class="card">
-                        <img src="../imagenes/componentes/gabinetes/gabinete-7.webp" alt="Gabinete gamer">
-                        <div>
-                            <h3>Gabinete</h3>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <img src="../imagenes/componentes/gabinetes/gabinete-8.webp" alt="Gabinete gamer">
-                        <div>
-                            <h3>Gabinete</h3>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <img src="../imagenes/componentes/gabinetes/gabinete-9.webp" alt="Gabinete gamer">
-                        <div>
-                            <h3>Gabinete</h3>
-                        </div>
-                    </article>
                 </section>
             </div>
         </section>
+        <a href="#header" class="volver">Volver arriba</a>
     </main>
     <footer>
-        <div>
-            <p>Redes sociales</p>
-            <ul>
-                <li>Instagram</li>
-                <li>Twitter</li>
-                <li>Facebook</li>
+        <div class="redes">
+            <h2 class="redesTitle">Redes sociales</h2>
+            <ul class="redesList">
+                <li>
+                    <img src="../imagenes/iconos/instagram-icon.png" alt="Icono de instagram, obtenido de icons8.com"
+                        class="icono">
+                    Instagram
+                </li>
+                <li>
+                    <img src="../imagenes/iconos/twitter-icon.png" alt="Icono de twitter, obtenido de icons8.com"
+                        class="icono">
+                    Twitter
+                </li>
+                <li>
+                    <img src="../imagenes/iconos/facebook-icon.png" alt="Icono de facebook, obtenido de icons8.com"
+                        class="icono">
+                    Facebook
+                </li>
             </ul>
         </div>
-        <p>Todos los derechos reservados - CopyRight 2023</p>
+        <small>Página creada por <span class="creador">Santiago Mustafa Font</span> - CoderHouse desarrollo web</small>
     </footer>
 </body>
 

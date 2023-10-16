@@ -1,57 +1,45 @@
-# EN PROCESO
+# TechZone
 
-No he podido darle tan buena pinta a la página sin usar grid o flex, lo siento
-
-## TechZone - PROYECTO FINAL -> CoderHouse
-
-## Sobre TechZone
-
-> Página de ventas de productos tecnológicos más importante de la Argentina.
+> ## Sobre este proyecto
 >
-> Mira nuestros productos y promociones sin igual, son ofertas únicas del mercado argentino!
-
-## Sobre el proyecto
+> La idea del proyecto vino del curso Desarrollo web de CoderHouse
 >
-> En este proyecto se busca practicar los principios básicos de html y css aprendidos durante las clases del curso de **Desarrollo web** de **[CoderHouse](https://coderhouse.com)**
+> Básicamente es un proyecto dónde debo desarrollar una página web navegable y estilizada
 >
-> Proyecto realizado por: ***Santiago Mustafa Font***
+> Su desarrollo debe realizarse con HTML y CSS, además de poder incorporar librerías o framework de CSS.
+
+---
+
+### Reglas que debe cumplir el proyecto para estar aprobado
+
+- Tener más de 5 páginas
+- Debe ser navegable
+- Se debe agregar estilo de un archivo .css
+- Su diseño debe ser responsive en todos los dispositivos
+- Debe tener buena semántica y SEO (Buenas prácticas)
+- más próximamente...
+
+---
+
+## Tecnologías utilizadas
+
+- [x] HTML
+- [x] CSS
+- [ ] SCSS
+- [ ] BoostTrap
+
+---
+
+## Entregas
+
+> ### Primera entrega 17-10-2023
 >
-> Tecnologías utilizadas para el desarrollo del proyecto
+> #### Calificación : [ ]
 >
-> - [x] **HTML**
-> - [x] **CSS**
+> #### Feedback
+>
+> - A recibir
 
-## Avances del proyecto
+---
 
-- [x] Crear del **WireFrame** del proyecto.
-- [x] Crear las vistas de **escritorio**, **tablet** y **teléfono**.
-- [x] Crear el **header** y **footer** y ponerlo en todas las páginas.
-- [x] Agregar el archivo CSS a mi proyecto.
-- [x] Agregar estilos a mi proyecto.
-- [] Darle el diseño deseado con grid y flex.
-- [] Hacer que mi página web sea responsive.
-
-## Screenshot de cada avance del proyecto
-
-### Primera pre-entrega
-
-Index
-![screenshot](./screenshots/index-screenshot.png)
-
-Computadoras
-![screenshot](./screenshots/computadoras-screenshot.png)
-
-Componentes
-![screenshot](./screenshots/componentes-screenshot.png)
-
-Accesorios
-![screenshot](./screenshots/accesorios-screenshot.png)
-
-Sucursales
-![screenshot](./screenshots/sucursales-screenshot.png)
-
-Contacto
-![screenshot](./screenshots/contacto-screenshot.png)
-
-Quienes somos?
-![screenshot](./screenshots/quienesSomos-screenshot.png)
+Proyecto iniciado el 10-10-2023 -> finalizado el ...

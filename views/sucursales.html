@@ -6,78 +6,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechZone</title>
 
+    <!-- BootsTrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 
 <body>
     <header class="header">
-        <h2 class="title">TechZone</h2>
+        <h2 class="header__title"><a href="../index.html"><img src="../imagenes/logo/logo.png"
+                    alt="Logo de TechZone"></a></h2>
         <nav>
-            <ul class="navList">
-                <li><a class="navBtn" href="../index.html">Inicio</a></li>
-                <li><a class="navBtn" href="./computadoras.html">Computadoras</a></li>
-                <li><a class="navBtn" href="./componentes.html">Componentes</a></li>
-                <li><a class="navBtn" href="./accesorios.html">Accesorios</a></li>
-                <li><a class="navBtn" href="./sucursales.html">Sucursales</a></li>
-                <li><a class="navBtn" href="./contacto.html">Contáctanos</a></li>
-                <li><a class="navBtn" href="./quienes-somos.html">Quienes somos?</a></li>
+            <ul class="header__navList">
+                <li><a class="header__navList--navBtn" href="../index.html">Inicio</a></li>
+                <li><a class="header__navList--navBtn" href="./computadoras.html">Computadoras</a></li>
+                <li><a class="header__navList--navBtn" href="./componentes.html">Componentes</a></li>
+                <li><a class="header__navList--navBtn" href="./accesorios.html">Accesorios</a></li>
+                <li><a class="header__navList--navBtn" href="./sucursales.html">Sucursales</a></li>
+                <li><a class="header__navList--navBtn" href="./contacto.html">Contáctanos</a></li>
+                <li><a class="header__navList--navBtn" href="./quienes-somos.html">Quienes somos?</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <header class="mainHeader">
-            <h1 class="mainHeaderTitle">Nuestras sucursales</h1>
+    <main class="main">
+        <header class="main__header">
+            <h1 class="main__header--title">Nuestras sucursales</h1>
+            <p>Tenemos 3 sucursales en el país, cada una cuenta con la mejor tecnología, además de contar con las
+                mejores
+                instalaciones para proporcionarte la mejor ayuda posible.</p>
+            <p>Tenemos los mejores horarios de atención: 9:00hs - 20:00hs</p>
         </header>
-        <section class="sucursalContainer">
-            <article class="sucursal">
-                <h2>Sucursal de Córdoba</h2>
+        <section class="main__sucursales">
+            <article class="main__sucursales--sucursal">
+                <h2 class="main__sucursales--sucursal--title">Córdoba</h2>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108977.23899160055!2d-64.27661267514317!3d-31.399280322359722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432985f478f5b69%3A0xb0a24f9a5366b092!2zQ8OzcmRvYmE!5e0!3m2!1ses-419!2sar!4v1697138195483!5m2!1ses-419!2sar"
-                    width="500" height="350" style="border:0;" allowfullscreen="off" loading="lazy"
+                    width="350" height="300" style="border:0;" allowfullscreen="off" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <p>Av. General Belgrano 95843</p>
             </article>
-            <article class="sucursal">
-                <h2>Sucursal de Buenos Aires</h2>
+            <article class="main__sucursales--sucursal">
+                <h2 class="main__sucursales--sucursal--title">Buenos Aires</h2>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.45340211764!2d-58.51569865212594!3d-34.61565477020296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1697138272075!5m2!1ses-419!2sar"
-                    width="500" height="350" style="border:0;" allowfullscreen="off" loading="lazy"
+                    width="350" height="300" style="border:0;" allowfullscreen="off" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <p>Av. General Paz 19863</p>
             </article>
-            <article class="sucursal">
-                <h2>Sucursal de Santiago del Estero</h2>
+            <article class="main__sucursales--sucursal">
+                <h2 class="main__sucursales--sucursal--title">Santiago del Estero</h2>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56468.2296310028!2d-64.3082477769138!3d-27.801632764292016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943b526adf33f96b%3A0x9a9d18ed7764c8d6!2sSantiago%20del%20Estero!5e0!3m2!1ses-419!2sar!4v1697138308681!5m2!1ses-419!2sar"
-                    width="500" height="350" style="border:0;" allowfullscreen="off" loading="lazy"
+                    width="350" height="300" style="border:0;" allowfullscreen="off" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <p>Av. colon 1010101</p>
             </article>
         </section>
     </main>
-    <footer>
-        <div class="redes">
-            <h2 class="redesTitle">Redes sociales</h2>
-            <ul class="redesList">
+    <footer class="footer">
+        <section class="footer__redes">
+            <h2 class="footer__redes--title">Redes sociales</h2>
+            <ul class="footer__redes--list">
                 <li>
-                    <img src="../imagenes/iconos/instagram-icon.png" alt="Icono de instagram, obtenido de icons8.com"
-                        class="icono">
+                    <img src="../imagenes/iconos/instagram-icon.png" alt="Icono de instagram - obtenido de icons8.com"
+                        class="footer__redes--list--icon">
                     Instagram
                 </li>
                 <li>
-                    <img src="../imagenes/iconos/twitter-icon.png" alt="Icono de twitter, obtenido de icons8.com"
-                        class="icono">
+                    <img src="../imagenes/iconos/twitter-icon.png" alt="Icono de twitter - obtenido de icons8.com"
+                        class="footer__redes--list--icon">
                     Twitter
                 </li>
+            </ul>
+        </section>
+        <article class="footer__others">
+            <h2 class="footer__others--title">Redes sociales</h2>
+            <ul class="footer__others--list">
                 <li>
-                    <img src="../imagenes/iconos/facebook-icon.png" alt="Icono de facebook, obtenido de icons8.com"
-                        class="icono">
-                    Facebook
+                    GitHub
+                    <img src="../imagenes/iconos/github-icon.png" alt="Icono de GitHun - obtenido de icons8.com"
+                        class="footer__others--list--icon">
+                </li>
+                <li>
+                    LinkedIn
+                    <img src="../imagenes/iconos/linkedin-icon.png" alt="Icono de GitHun - obtenido de icons8.com"
+                        class="footer__others--list--icon">
                 </li>
             </ul>
-        </div>
-        <small>Página creada por <span class="creador">Santiago Mustafa Font</span> - CoderHouse desarrollo web</small>
+        </article>
+        <small class="footer__owner">Página creada por <span class="footer__owner--name">Santiago Mustafa Font</span> -
+            CoderHouse desarrollo web</small>
     </footer>
 </body>
 

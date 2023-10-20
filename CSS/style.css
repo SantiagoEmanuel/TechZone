@@ -93,6 +93,10 @@ body {
     padding-top: 2.5rem;
 }
 
+.main__article {
+    width: 100%;
+}
+
 .main__article--title {
     text-align: center;
     font-weight: 700;
@@ -429,4 +433,58 @@ body {
     box-shadow: 3px 3px 0 #293241;
     border-radius: 5px;
     background-color: #fafafa;
+}
+
+@media (max-width: 1460px) {
+    .main {
+        width: 100%;
+    }
+
+    .main__productsContainer {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .main__productsContainer--title {
+        margin: 1rem;
+    }
+
+    .main__productsContainer__section {
+        gap: 1rem;
+        margin-top: .5rem;
+    }
+
+    .main__productsContainer__section h3 {
+        margin: 1rem;
+    }
+}
+
+@media (max-width: 1370px) {
+    .header {
+        width: 180px;
+    }
+
+    .header__title img {
+        width: 180px;
+    }
+
+    .main__productsContainer__section--cardContent--card {
+        width: 250px;
+        height: 450px;
+    }
+
+    .main__productsContainer__section--cardContent--card img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .main__article--title {
+        font-size: 1.5rem;
+    }
+
+    .main__productsContainer--title {
+        font-size: 1.22rem;
+    }
 }

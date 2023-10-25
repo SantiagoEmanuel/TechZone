@@ -24,13 +24,13 @@
             const menu = document.getElementById("menu")
             const btnCloseMenu = document.getElementById("btnCloseMenu")
 
-            menuBtn.addEventListener("click", ()=>{
+            menuBtn.addEventListener("click", () => {
                 menu.classList.add("flex")
                 menu.classList.remove("hidden")
                 console.log("hola")
             })
 
-            btnCloseMenu.addEventListener("click", ()=>{
+            btnCloseMenu.addEventListener("click", () => {
                 menu.classList.add("hidden")
                 menu.classList.remove("flex")
                 console.log("hola")
@@ -42,8 +42,11 @@
 
 <body>
     <header class="header" id="header">
-        <h2 class="header__title"><a href="../index.html"><img src="../imagenes/logo/logo.png"
-                    alt="Logo de TechZone"></a></h2>
+        <h2 class="header__title">
+            <a href="../index.html">
+                <img src="../imagenes/logo/logo.png" alt="Logo de TechZone">
+            </a>
+        </h2>
         <nav>
             <ul class="header__navList">
                 <li><a href="../index.html" class="header__navList--navBtn">Inicio</a></li>
@@ -300,12 +303,12 @@
             <h2 class="footer__redes--title">Redes sociales</h2>
             <ul class="footer__redes--list">
                 <li>
-                    <img src="../imagenes/iconos/instagram-icon.png" alt="Icono de instagram - obtenido de icons8.com"
+                    <img src="../assets/images/iconos/instagram-icon.png" alt="Icono de instagram"
                         class="footer__redes--list--icon">
                     Instagram
                 </li>
                 <li>
-                    <img src="../imagenes/iconos/twitter-icon.png" alt="Icono de twitter - obtenido de icons8.com"
+                    <img src="../assets/images/iconos/twitter-icon.png" alt="Icono de twitter"
                         class="footer__redes--list--icon">
                     Twitter
                 </li>
@@ -316,18 +319,17 @@
             <ul class="footer__others--list">
                 <li>
                     GitHub
-                    <img src="../imagenes/iconos/github-icon.png" alt="Icono de GitHun - obtenido de icons8.com"
+                    <img src="../assets/images/iconos/github-icon.png" alt="Icono de GitHub"
                         class="footer__others--list--icon">
                 </li>
                 <li>
                     LinkedIn
-                    <img src="../imagenes/iconos/linkedin-icon.png" alt="Icono de GitHun - obtenido de icons8.com"
+                    <img src="../assets/images/iconos/linkedin-icon.png" alt="Icono de GitHun"
                         class="footer__others--list--icon">
                 </li>
             </ul>
         </article>
-        <small class="footer__owner">Página creada por <span class="footer__owner--name">Santiago Mustafa Font</span> -
-            CoderHouse desarrollo web</small>
+        <small class="footer__owner">Created by <span class="footer__owner--name">Santiago Mustafa Font</span></small>
     </footer>
 </body>
 

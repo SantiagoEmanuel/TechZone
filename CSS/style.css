@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Poppins';
-    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+    src: url(../assets/fonts/Poppins/Poppins-Regular.ttf);
 }
 
 /* Background color -> #e0fbfc -> body*/
@@ -582,6 +582,13 @@ body {
     .mobileMenu--list a:hover {
         background-color: #ee6c4d;
         color: #293241;
+    }
+}
+
+@media (max-width: 530px) {
+    .main__productsContainer__section--cardContent--card {
+        width: 100%;
+        margin: 0 2rem;
     }
 }
 
